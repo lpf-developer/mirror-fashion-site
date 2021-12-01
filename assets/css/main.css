@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2{
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: 1.1rem;
+}
+
+p, li{
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+body{
+    background-color: rgb(162, 211, 162);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 0 50px;
+    position: fixed;
+    width: 100vw;
+    height: 90px;
+}
+
+.header-logo, .header-nav{
+    padding-top: 25px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    padding-left: 10px;
+}
+
+.menu a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu a:hover, .active{
+    background-color: rgba(84,209,84,.5);
+    transition: all ease .5s;
+    border-radius: 8px;
+
+}
+
+section{
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+section a{
+    margin-top: 50px;
+}
+
+#img-centro-distribuicao img{
+    width: 100%;
+}
+
+#img-familia-pelho{
+    float: right;
+    padding: 20px;
+}
+#img-familia-pelho figcaption, #img-centro-distribuicao figcaption{
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: rgb(84,209,84);
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+
+#back-to-top img{
+    width: 30px;
+}
